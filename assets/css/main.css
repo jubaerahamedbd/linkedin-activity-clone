@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F3F2EF;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    flex-basis: 1250px;
+    margin: 0px 30px;
+}
+
+.mainContent {
+    border-radius: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.columnone {
+    width: 24%;
+    margin-right: 9px;
+    flex-grow: 1;
+}
+
+.columntwo {
+    width: 48%;
+    background-color: yellow;
+    margin: 0px 9px;
+    height: 500px;
+    flex-grow: 1;
+
+}
+
+.columnthree {
+    background-color: green;
+    height: 500px;
+    margin-left: 9px;
+    width: 24%;
+    flex-grow: 1;
+}
+
+/* Left Container */
+.left-full-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #E0DFDC;
+}
+
+.left-text-container {}
+
+.profile-cover {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-cover>.cover-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.profile-cover>.profile-image {
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+    margin-top: -45px;
+}
+
+.left-text-container {
+    margin: 0px 20px;
+}
+
+.name-details {
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name-details>h3{
+    color: #191919;
+}
+.name-details>p {
+    margin: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    color: #919191;
+
+}
+.left-line {
+    color: #E0DFDC;
+}
+.followers-number {
+    display: flex;
+    justify-content: space-between;
+    color: #919191;
+    margin: 8px 0px;
+}
+
+.left-column-button {}
+
+.left-column-button>.connect-btn {
+    width: 100%;
+    margin: 8px 0px;
+    color: #ffffff;
+    background-color: #0A66C2;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 12px 0px;
+    border-radius: 50px;
+}
+
+.left-column-button>.connect-btn:hover {
+    background-color: #004182;
+}
+
+.left-column-button>.message-btn {
+    width: 100%;
+    color: #5E5E5E;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 12px 0px;
+    border-radius: 50px;
+    outline: 1px solid #5E5E5E;
+    margin-bottom: 25px;
+}
+
+.left-column-button>.message-btn:hover {
+    background-color: #EBEBEB;
+    outline: 2px solid #5E5E5E;
+}
+
+@media (min-width: 1440px) {}
+
+/*large Device*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/*Medium Device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .columnone {
+        width: 31%;
+ 
+        flex-grow: 1;
+    }
+
+    .columntwo {
+        width: 66%;
+        margin: 0px;
+        flex-grow: 0;
+    }
+
+    .columnthree {
+        margin-left: 0px;
+        width: 66%;
+        flex-grow: 0;
+    }
+}
+
+/* Small Device*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .columnone {
+        width: 100%;
+        margin: 15px 0px!important;
+        margin: 0;
+    }
+
+    .columntwo {
+        width: 100%;
+        margin: 0;
+        background-color: yellow;
+   
+    }
+
+    .columnthree {
+        background-color: green;
+
+        margin: 0;
+        width: 100%;
+
+    }
+
+}
+
+/*Mobile Device*/
+
+@media (min-width: 420px) and (max-width: 575px) {
+    .columnone {
+        width: 100%;
+        margin: 15px 0px!important;
+        margin: 0;
+    }
+
+    .columntwo {
+        width: 100%;
+        margin: 0;
+        background-color: yellow;
+
+    }
+
+    .columnthree {
+        background-color: green;
+
+        margin: 0;
+        width: 100%;
+
+    }
+}
+
+/* Small Mobile Device */
+@media (min-width: 320px) and (max-width: 419px) {
+    .columnone {
+        width: 100%;
+        margin: 15px 0px!important;
+        margin: 0;
+    }
+
+    .columntwo {
+        width: 100%;
+        margin: 0;
+        background-color: yellow;
+ 
+    }
+
+    .columnthree {
+        background-color: green;
+ 
+        margin: 0;
+        width: 100%;
+
+    }
+}
