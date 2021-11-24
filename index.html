@@ -44,7 +44,75 @@
             </div>
           </div>
           <div class="columntwo">
-            <h1>Column Two</h1>
+            <div class="middle-full-with">
+              <div class="middle-item-full">
+                <div class="activity-filter">
+                  <h3>Kazi's Activity</h3>
+                  <div class="activity-btn" id="activity-btn">
+                    <button onclick="allactivity()" class="act-btn" id="all-activity">All activity</button>
+                    <button onclick="articles()" class="act-btn active" id="articles">Articles</button>
+                    <button onclick="post()" class="act-btn" id="posts">Posts</button>
+                    <button onclick="documents()" class="act-btn" id="documents">Documents</button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="nothing-item-full" id="articles-nothing">
+                <div class="nothing">
+                  <img src="./assets/img/nothing.jpg">
+                  <h1>Nothing to see for now</h1>
+                  <h3>Articles that Kazi Shares will be displayed</h3>
+                </div>
+              </div>
+              <div class="documents-item-full" id="documents-nothing">
+                <div class="documents">
+                  <img src="./assets/img/nothing.jpg">
+                  <h1>Nothing to see for now</h1>
+                  <h3>Documents that Kazi Shares will be displayed</h3>
+                </div>
+              </div>
+
+              <div class="posts-item-full" id="posts-nothing">
+                <div class="posts">
+                  <img src="./assets/img/nothing.jpg">
+                  <h1>Nothing to see for now</h1>
+                  <h3>Posts that Kazi Shares will be displayed</h3>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
           <div class="columnthree">
             <h3 class="box-title">Interests</h3>
@@ -337,9 +405,42 @@
                 ></a>
               </div>
             </div>
+
+            <div class="footer-nav">
+              <div class="nav-link">
+                <a href="#">About</a>
+                <a href="#">Accesibility</a>
+                <a href="#">Help Center</a>
+                <div class="nav-drop"><a href="#">Privacy & Terms</a> 
+                  <div class="privacy-drop-down" id="privacy-drop-down">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">User Agreement</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Copyright Policy</a>
+                  </div>
+                  <i onclick="privacyArrowDown()" class="fas fa-angle-down" id="privacy-down"></i> 
+
+                  <i onclick="privacyArrowup()" class="fas fa-angle-up" id="privacy-up"></i></div>
+
+                <a href="#">Ad Choices</a>
+                <a href="#">Advertising</a>
+                <div class="nav-drop"><a href="#">Business Services </a>
+                 
+                  <i class="fas fa-angle-down"></i>
+                  <i class="fas fa-angle-up"></i></div>
+                
+                <a href="#">Get the Linkedln app</a>
+                <a href="#">More</a>
+              </div>
+              <div class="footer-title">
+                <p><i class="fab fa-linkedin"></i>Linkedin Corporation © 2021</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

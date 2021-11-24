@@ -54,7 +54,6 @@ body {
     border: 1px solid #E0DFDC;
 }
 
-.left-text-container {}
 
 .profile-cover {
     align-items: center;
@@ -106,7 +105,6 @@ body {
     margin: 8px 0px;
 }
 
-.left-column-button {}
 
 .left-column-button>.connect-btn {
     width: 100%;
@@ -149,6 +147,7 @@ body {
     background-color: #fff;
     border-radius: 12px;
     margin-bottom: 20px;
+    outline: 1px solid #EBEBEB;
 }
 h3.box-title {
     color: #6F6E6D;
@@ -245,7 +244,180 @@ a.see-all-right>i {
 img.items-img-company {
     width: 100%;
 }
+.footer-nav{
+    padding: 0px 20px;
+}
+.nav-link{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.nav-link>a{
+   text-decoration: none;
+   margin: 3px 5px;
+   font-size: 14px;
+   color: #5E5E5E;
+}
+.nav-drop>a{
+    text-decoration: none;
+    margin: 3px 5px;
+    font-size: 14px;
+    color: #5E5E5E;
+ }
+ .nav-drop>i{
+    color: #5E5E5E;
+ }
+.footer-title {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title>p{
+    font-size: 14px;
+    color: #181817;
+}
+.footer-title>p>i{
+    color: #0A66C2;
+    margin-right: 3px;
+}
 
+#privacy-up{
+    cursor: pointer;
+}
+#privacy-down{
+    cursor: pointer;
+}
+#privacy-up{
+    cursor: pointer;
+}
+#privacy-down{
+    cursor: pointer;
+}
+.nav-drop {
+    position: relative;
+}
+.privacy-drop-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 1px solid #EBEBEB;
+    position: absolute;
+    top: -80px;
+    z-index: 1;
+    background-color: #fff;
+    padding: 5px 12px;
+    border-radius: 8px 8px 0px 8px;
+    left: -18px;
+    width: 150px;
+}
+.privacy-drop-down>a{
+    text-decoration: none;
+    color: #000; 
+}
+.privacy-drop-down>a:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+/* middle column */
+.middle-full-with{
+    width: 100%;
+}
+.middle-item-full{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    outline: 1px solid #A4A4A4;
+}
+.activity-btn{
+    display: flex;
+    margin-top: 20px;
+
+}
+.act-btn{
+    border: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    flex-grow: 1;
+    background-color: #ffffff;
+    color: #5E5E5E;
+    outline: 1px solid #A4A4A4;
+    border-radius: 12px;
+    font-size: 14px;
+    
+}
+.act-btn:hover{
+    outline: 2px solid #A4A4A4;
+    background-color: #EBEBEB;
+}
+.active{
+    background-color: #057642;
+    outline: 2px solid #057642;
+    color: #fff;
+}
+.active:hover{
+    background-color: #057642;
+    outline: 2px solid #057642;
+    color: #fff;
+}
+.nothing-item-full{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    outline: 1px solid #A4A4A4;
+}
+.nothing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nothing>img{
+    width: 100%;
+}
+.documents-item-full{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    outline: 1px solid #A4A4A4;
+}
+.documents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.documents>img{
+    width: 100%;
+}
+.posts-item-full{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    outline: 1px solid #A4A4A4;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.posts>img{
+    width: 100%;
+}
 @media (min-width: 1440px) {}
 
 /*large Device*/
@@ -379,6 +551,18 @@ img.items-img-company {
         margin-left: 10px;
         flex-grow: 1;
     }
+    .act-btn{
+        border: none;
+        padding: 5px 10px;
+        margin-right: 10px;
+        flex-grow: 1;
+        background-color: #ffffff;
+        color: #5E5E5E;
+        outline: 1px solid #A4A4A4;
+        border-radius: 12px;
+        font-size: 14px;
+        
+    }
 }
 
 /* Small Mobile Device */
@@ -419,5 +603,24 @@ img.items-img-company {
         flex-basis: 65%;
         margin-left: 10px;
         flex-grow: 1;
+    }
+    .middle-item-full{
+        width: 100%;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 12px;
+        outline: 1px solid #A4A4A4;
+    }
+    .act-btn{
+        border: none;
+        padding: 5px 5px;
+        margin-right: 6px;
+      
+        background-color: #ffffff;
+        color: #5E5E5E;
+        outline: 1px solid #A4A4A4;
+        border-radius: 12px;
+        font-size: 12px;
+        
     }
 }
