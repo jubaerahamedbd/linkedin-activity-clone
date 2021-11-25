@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -689,7 +690,7 @@ i.far.fa-thumbs-up {
 }
 
 .comment-input>img {
-    max-width: 10%;
+    width: 50px;
     margin-right: 15px;
     border-radius: 50%;
 }
@@ -829,7 +830,7 @@ i.far.fa-thumbs-up {
     justify-content: center;
     transform: rotateY(0deg) !important;
     color: #5E5E5E !important;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 .post-reaction-button>a>i:hover {
