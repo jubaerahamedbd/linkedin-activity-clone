@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/main.css" rel="stylesheet" />
+
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <title>Document</title>
   </head>
@@ -49,24 +50,39 @@
                 <div class="activity-filter">
                   <h3>Kazi's Activity</h3>
                   <div class="activity-btn" id="activity-btn">
-                    <button onclick="allactivity()" class="act-btn" id="all-activity">All activity</button>
-                    <button onclick="articles()" class="act-btn active" id="articles">Articles</button>
-                    <button onclick="post()" class="act-btn" id="posts">Posts</button>
-                    <button onclick="documents()" class="act-btn" id="documents">Documents</button>
+                    <button
+                      onclick="allactivity()"
+                      class="act-btn active"
+                      id="all-activity"
+                    >
+                      All activity
+                    </button>
+                    <button onclick="articles()" class="act-btn" id="articles">
+                      Articles
+                    </button>
+                    <button onclick="post()" class="act-btn" id="posts">
+                      Posts
+                    </button>
+                    <button
+                      onclick="documents()"
+                      class="act-btn"
+                      id="documents"
+                    >
+                      Documents
+                    </button>
                   </div>
                 </div>
-
               </div>
               <div class="nothing-item-full" id="articles-nothing">
                 <div class="nothing">
-                  <img src="./assets/img/nothing.jpg">
+                  <img src="./assets/img/nothing.jpg" />
                   <h1>Nothing to see for now</h1>
                   <h3>Articles that Kazi Shares will be displayed</h3>
                 </div>
               </div>
               <div class="documents-item-full" id="documents-nothing">
                 <div class="documents">
-                  <img src="./assets/img/nothing.jpg">
+                  <img src="./assets/img/nothing.jpg" />
                   <h1>Nothing to see for now</h1>
                   <h3>Documents that Kazi Shares will be displayed</h3>
                 </div>
@@ -74,45 +90,324 @@
 
               <div class="posts-item-full" id="posts-nothing">
                 <div class="posts">
-                  <img src="./assets/img/nothing.jpg">
+                  <img src="./assets/img/nothing.jpg" />
                   <h1>Nothing to see for now</h1>
                   <h3>Posts that Kazi Shares will be displayed</h3>
                 </div>
               </div>
 
+              <div class="all-activity-item-full" id="all-post">
+                <div class="comment-item">
+                  <div class="box-top">
+                    <p>
+                      <a href="#">Kazi Nayem</a> <span>commented on this</span>
+                    </p>
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <div class="box-profile">
+                    <div class="img-name">
+                      <div class="post-comment-image">
+                        <img src="./assets/img/munsi.jpg" />
+                      </div>
+                      <div class="comment-name-details">
+                        <h3>MUNSI ABDUL ALIM<span> . 2nd</span></h3>
+                        <p>M. Com, MBA(MKT) , FCMA</p>
+                        <span
+                          >1mo . <i class="fa fa-globe" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <div class="comment-follow">
+                      <button>+ Follow</button>
+                    </div>
+                  </div>
+                  <div class="post-item">
+                    <h3>
+                      Should the employees who leave the organization get the
+                      bonus/incentive for the period they served the
+                      organization?
+                    </h3>
+                    <span
+                      >The author can see how you vote.<a href="#">
+                        Learn more</a
+                      ></span
+                    >
+                    <div class="progress-bar">
+                      <div class="progress-yes">
+                        <div class="progress-yes-inner">Yes</div>
+                        <span>89%</span>
+                      </div>
+                      <div class="progress-no">
+                        <div class="progress-no-inner">No</div>
+                        <span>4%</span>
+                      </div>
+                      <div class="progress-other">
+                        <div class="progress-other-inner">
+                          Management Decision
+                        </div>
+                        <span>6%</span>
+                      </div>
+                    </div>
+                    <div class="vote">
+                      <p>477 votes . Poll closed</p>
+                    </div>
+                  </div>
+
+                  <div class="post-like-comment">
+                    <div class="likes">
+                      <a href="#">
+                        <i class="far fa-thumbs-up"></i>
+                        <span> 16</span>
+                      </a>
+                    </div>
+                    <a href="#">
+                      <p>15 comments</p>
+                    </a>
+                  </div>
+
+                  <div class="post-reaction-button">
+                    <a href=""><i class="far fa-thumbs-up"> Like</i></a>
+                    <a href=""><i class="fas fa-comment"> Comment</i></a>
+                    <a href=""><i class="fas fa-share"> Share</i></a>
+                    <a href=""><i class="fab fa-telegram-plane"> Send</i></a>
+                  </div>
+
+                  <div class="comment-input">
+                    <img src="./assets/img/profileimage.jpg" />
+                    <form>
+                      <input
+                        type="text"
+                        id="lname"
+                        name="lname"
+                        placeholder="Add a comment..."
+                      />
+                      <div class="comment-icon">
+                        <i class="fas fa-image"></i>
+                        <i class="far fa-smile"></i>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="comments">
+                    <h4>Most relevant<i class="fas fa-caret-down"></i></h4>
+                    <div class="individual-comment">
+                      <div class="comment-image">
+                        <img src="./assets/img/profileimage.jpg" />
+                      </div>
+                      <div class="comment-content">
+                        <div class="full-comment">
+                          <div class="comment-title">
+                            <h4>Kazi Nayem <span> . 2nd</span></h4>
+                            <span>1mo <i class="fas fa-ellipsis-h"></i></span>
+                          </div>
+                          <span
+                            >Lead Soluation Engineer(Cloud) | AWS Serverless |
+                            Python | React |Angular</span
+                          >
+                          <div class="comment-desc">
+                            <p>
+                              Obviously but Some companies doesn’t pay last 2/3
+                              months of salary when employee wishes to leave.
+                            </p>
+                          </div>
+                        </div>
+                        <span
+                          ><a class="comment-like" href="#">Like </a>
+                          <i class="far fa-thumbs-up"></i> |
+                          <a href="#" class="comment-replay">Replay</a></span
+                        >
+                      </div>
+                    </div>
+                    <h4>
+                      <a class="load-more" href="#">Load more comments</a>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="comment-item">
+                  <div class="box-top">
+                    <p>
+                      <a href="#">Kazi Nayem</a> <span>liked</span>
+                      <a href="#">Sheikh Salman Rashid</a
+                      ><span>'s comment on this </span>
+                    </p>
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <div class="box-profile">
+                    <div class="img-name">
+                      <img src="./assets/img/hasan.jpg" />
+                      <div class="comment-name-details">
+                        <h3>Hasanur Rahman<span> . 1st</span></h3>
+                        <p>CTO at Shadhin Lab LLC</p>
+                        <span
+                          >1mo . <i class="fa fa-globe" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <!-- <div class="comment-follow">
+                      <button>+ Follow</button>
+                    </div> -->
+                  </div>
+                  <div class="share-content">
+                    <p>
+                      Thanks to team
+                      <span><a href="#">Shadhin Lab LLC</a></span> !
+                    </p>
+                    <p>A long way to go !!!</p>
+                  </div>
+
+                  <div class="post-item">
+                    <div class="box-profile">
+                      <div class="img-name">
+                        <div class="post-comment-image">
+                          <img src="./assets/img/shadhin.jpg" />
+                        </div>
+                        
+                        <div class="comment-name-details">
+                          <h3>Shadhin Lab LLC</h3>
+                          <p>251 followers</p>
+                          <span
+                            >1mo .<span> Edited .</span>
+                            <i class="fa fa-globe" aria-hidden="true"></i
+                          ></span>
+                        </div>
+                      </div>
+                      <!-- <div class="comment-follow">
+                        <button>+ Follow</button>
+                      </div> -->
+                    </div>
+                    <div class="post-content">
+                      <div class="post-text-content">
+                        <p>
+                          A year Completed :) <br />
+                          Many more to Go !<br />
+                          We have not realized how this time has gone!<br />
+                          <button
+                            class="seemorebtn"
+                            id="dots"
+                            onclick="seeMore()"
+                          >
+                            ...see more
+                          </button>
+                          <span id="more"
+                            >Thanks to our Mentor of the Mentors, beloved
+                            <a href="#">Mohammad Zaman</a> Bhai.<br /><br />
+
+                            We can't express our gratitude enough for allocating
+                            a day for us to encourage the whole team at least
+                            for a year :)<br /><br />
+
+                            Thanks a lot to the Full Team for making last year
+                            journey so meaningful<br /><br />
+
+                            Big Congratulations to<br />
+                            <a href="#">Farzana Juthi</a>,<br />
+                            <a href="#">Asadullah Al Galib</a>,<br />
+                            <a href="#">Abdullah Al Hasib</a>,<br />
+                            <a href="#">Toaha Bhuiyan</a>,<br />
+                            <a href="#">Sagor Chandra Paul</a>, and<br />
+                            <a href="#">Taslima Kabir Suchona</a><br /><br />
+
+                            Kudos to the team !<br />
+                            Let's keep rocking !<br /><br />
+
+                            <a href="#">#shadhinlab</a>
+                            <a href="#"> #shadhintech</a>
+                          </span>
+                        </p>
+                      </div>
+                      <div class="post-image-content">
+                        <img src="./assets/img/1633358272918.jpg" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-like-comment">
+                    <div class="likes">
+                      <a href="#">
+                        <i class="far fa-thumbs-up"></i>
+                        <span> 16</span>
+                      </a>
+                    </div>
+                    <a href="#">
+                      <p>15 comments</p>
+                    </a>
+                  </div>
+
+                  <div class="post-reaction-button">
+                    <a href=""><i class="far fa-thumbs-up"> Like</i></a>
+                    <a href=""><i class="fas fa-comment"> Comment</i></a>
+                    <a href=""><i class="fas fa-share"> Share</i></a>
+                    <a href=""><i class="fab fa-telegram-plane"> Send</i></a>
+                  </div>
+
+                  <div class="comment-input">
+                    <img src="./assets/img/profileimage.jpg" />
+                    <form>
+                      <input
+                        type="text"
+                        id="lname"
+                        name="lname"
+                        placeholder="Add a comment..."
+                      />
+                      <div class="comment-icon">
+                        <i class="fas fa-image"></i>
+                        <i class="far fa-smile"></i>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="comments">
+                    <h4>Most relevant<i class="fas fa-caret-down"></i></h4>
+                    <div class="individual-comment">
+                      <div class="comment-image">
+                        <img src="./assets/img/sheikh.jpg" />
+                      </div>
+                      <div class="comment-content">
+                        <div class="full-comment">
+                          <div class="comment-title">
+                            <h4>Sheikh Salman Rashid <span> . 2nd</span></h4>
+                            <span>1mo <i class="fas fa-ellipsis-h"></i></span>
+                          </div>
+                          <span>Love to learn new skills</span>
+                          <div class="comment-desc">
+                            <p>
+                              Lots of congrats to hole team. Carry on. wishing
+                              to join this awesome team.
+                            </p>
+                          </div>
+                        </div>
+                        <span
+                          ><a class="comment-like" href="#">Like </a>
+                          <i class="far fa-thumbs-up"></i> |
+                          <a href="#" class="comment-replay">Replay</a> . 1
+                          Replay</span
+                        >
+                        <div class="replay-profile">
+                          <div class="replay-img-name">
+                            <div class="replay-image">
+                              <img src="./assets/img/hasan.jpg" />
+                            </div>
+                            <div class="replay-name-details">
+                              <h3>Hasanur Rahman<span> . 1st</span></h3>
+                              <p>CTO at Shadhin Lab LLC</p>
+                              <span
+                                >1mo .
+                                <i class="fa fa-globe" aria-hidden="true"></i
+                              ></span>
+                              <p class="replay-text">Thanks</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h4>
+                      <a class="load-more" href="#">Load more comments</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
           <div class="columnthree">
             <h3 class="box-title">Interests</h3>
@@ -411,32 +706,45 @@
                 <a href="#">About</a>
                 <a href="#">Accesibility</a>
                 <a href="#">Help Center</a>
-                <div class="nav-drop"><a href="#">Privacy & Terms</a> 
+                <div class="nav-drop">
+                  <a href="#">Privacy & Terms</a>
                   <div class="privacy-drop-down" id="privacy-drop-down">
                     <a href="#">Privacy Policy</a>
                     <a href="#">User Agreement</a>
                     <a href="#">Cookie Policy</a>
                     <a href="#">Copyright Policy</a>
                   </div>
-                  <i onclick="privacyArrowDown()" class="fas fa-angle-down" id="privacy-down"></i> 
+                  <i
+                    onclick="privacyArrowDown()"
+                    class="fas fa-angle-down"
+                    id="privacy-down"
+                  ></i>
 
-                  <i onclick="privacyArrowup()" class="fas fa-angle-up" id="privacy-up"></i></div>
+                  <i
+                    onclick="privacyArrowup()"
+                    class="fas fa-angle-up"
+                    id="privacy-up"
+                  ></i>
+                </div>
 
                 <a href="#">Ad Choices</a>
                 <a href="#">Advertising</a>
-                <div class="nav-drop"><a href="#">Business Services </a>
-                 
+                <div class="nav-drop">
+                  <a href="#">Business Services </a>
+
                   <i class="fas fa-angle-down"></i>
-                  <i class="fas fa-angle-up"></i></div>
-                
+                  <!-- <i class="fas fa-angle-up"></i> -->
+                </div>
+
                 <a href="#">Get the Linkedln app</a>
                 <a href="#">More</a>
               </div>
               <div class="footer-title">
-                <p><i class="fab fa-linkedin"></i>Linkedin Corporation © 2021</p>
+                <p>
+                  <i class="fab fa-linkedin"></i>Linkedin Corporation © 2021
+                </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>

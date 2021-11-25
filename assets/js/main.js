@@ -32,6 +32,8 @@ privacyArrowup = () => {
 var articlesnothing = document.getElementById("articles-nothing")
 var documentsnothing = document.getElementById("documents-nothing")
 var postsnothing = document.getElementById("posts-nothing")
+var allpost = document.getElementById("all-post")
+
 
 
 
@@ -42,6 +44,7 @@ var allbtn = document.getElementById('all-activity')
 
 documentsnothing.style.display = 'none'
 postsnothing.style.display = 'none'
+articlesnothing.style.display = 'none'
 
 documents = () =>{
     documentsbtn.className ='act-btn active'
@@ -52,6 +55,7 @@ documents = () =>{
     documentsnothing.style.display = 'block'
     articlesnothing.style.display = 'none'
     postsnothing.style.display = 'none'
+    allpost.style.display = 'none'
 }
 
 articles = () =>{
@@ -63,12 +67,19 @@ articles = () =>{
     articlesnothing.style.display= 'block'
     documentsnothing.style.display = 'none'
     postsnothing.style.display = 'none'
+    allpost.style.display = 'none'
 }
 allactivity = ()=>{
     documentsbtn.className ='act-btn'
     articlesbtn.className ='act-btn'
     allbtn.className = 'act-btn active'
     postssbtn.className = 'act-btn'
+
+    articlesnothing.style.display= 'none'
+    documentsnothing.style.display = 'none'
+    postsnothing.style.display = 'none'
+    allpost.style.display = 'block'
+
 }
 post= ()=>{
     documentsbtn.className ='act-btn'
@@ -80,4 +91,13 @@ post= ()=>{
     articlesnothing.style.display= 'none'
     documentsnothing.style.display = 'none'
     postsnothing.style.display = 'block'
+    allpost.style.display = 'none'
 }
+ var see = document.getElementById('more')
+ var dotbtn = document.getElementById('dots')
+ see.style.display ='none'
+
+ seeMore=()=>{
+    see.style.display ='block'
+    dotbtn.style.display = 'none'
+ }
