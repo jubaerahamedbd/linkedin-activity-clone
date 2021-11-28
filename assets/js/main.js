@@ -6,27 +6,27 @@ z.style.visibility = 'hidden'
 
 
 privacyArrowDown = () => {
-    if(x.style.display != 'none'){
+    if (x.style.display != 'none') {
         x.style.display = 'none'
         y.style.display = 'inline-block'
         z.style.visibility = 'visible'
     }
-    else{
-        x.style.display = 'inline-block' 
-    } 
+    else {
+        x.style.display = 'inline-block'
+    }
 }
 
 privacyArrowup = () => {
-   
-    if(y.style.display != 'none'){
+
+    if (y.style.display != 'none') {
         y.style.display = 'none'
         z.style.visibility = 'hidden'
         x.style.display = 'inline-block'
     }
-    else{
-        y.style.display = 'inline-block' 
+    else {
+        y.style.display = 'inline-block'
     }
-    
+
 }
 
 var articlesnothing = document.getElementById("articles-nothing")
@@ -46,9 +46,9 @@ documentsnothing.style.display = 'none'
 postsnothing.style.display = 'none'
 articlesnothing.style.display = 'none'
 
-documents = () =>{
-    documentsbtn.className ='act-btn active'
-    articlesbtn.className ='act-btn'
+documents = () => {
+    documentsbtn.className = 'act-btn active'
+    articlesbtn.className = 'act-btn'
     allbtn.className = 'act-btn'
     postssbtn.className = 'act-btn'
 
@@ -58,46 +58,84 @@ documents = () =>{
     allpost.style.display = 'none'
 }
 
-articles = () =>{
-    documentsbtn.className ='act-btn'
-    articlesbtn.className ='act-btn active'
+articles = () => {
+    documentsbtn.className = 'act-btn'
+    articlesbtn.className = 'act-btn active'
     allbtn.className = 'act-btn'
     postssbtn.className = 'act-btn'
 
-    articlesnothing.style.display= 'block'
+    articlesnothing.style.display = 'block'
     documentsnothing.style.display = 'none'
     postsnothing.style.display = 'none'
     allpost.style.display = 'none'
 }
-allactivity = ()=>{
-    documentsbtn.className ='act-btn'
-    articlesbtn.className ='act-btn'
+allactivity = () => {
+    documentsbtn.className = 'act-btn'
+    articlesbtn.className = 'act-btn'
     allbtn.className = 'act-btn active'
     postssbtn.className = 'act-btn'
 
-    articlesnothing.style.display= 'none'
+    articlesnothing.style.display = 'none'
     documentsnothing.style.display = 'none'
     postsnothing.style.display = 'none'
     allpost.style.display = 'block'
 
 }
-post= ()=>{
-    documentsbtn.className ='act-btn'
-    articlesbtn.className ='act-btn'
+post = () => {
+    documentsbtn.className = 'act-btn'
+    articlesbtn.className = 'act-btn'
     allbtn.className = 'act-btn'
     postssbtn.className = 'act-btn active'
 
 
-    articlesnothing.style.display= 'none'
+    articlesnothing.style.display = 'none'
     documentsnothing.style.display = 'none'
     postsnothing.style.display = 'block'
     allpost.style.display = 'none'
 }
- var see = document.getElementById('more')
- var dotbtn = document.getElementById('dots')
- see.style.display ='none'
+var see = document.getElementById('more')
+var dotbtn = document.getElementById('dots')
+see.style.display = 'none'
 
- seeMore=()=>{
-    see.style.display ='block'
+seeMore = () => {
+    see.style.display = 'block'
     dotbtn.style.display = 'none'
- }
+}
+
+var smallField = document.getElementById('small-field')
+smallField.style.display = 'none'
+
+
+var searchField = false
+searchModal = () => {
+
+    if (searchField === false) {
+        searchField = true
+    }
+    else {
+        searchField = false
+    }
+    if (searchField === true) {
+        smallField.style.display = 'block'
+    } else {
+        smallField.style.display = 'none'
+    }
+}
+
+var moreMenu = document.getElementById('more-menu')
+moreMenu.style.display = 'none'
+var dropdown = false
+dropmenu = () => {
+
+    if (dropdown === false) {
+        dropdown = true
+    }
+    else {
+        dropdown = false
+    }
+    if (dropdown === true) {
+        moreMenu.style.display = 'flex'
+    } else {
+        moreMenu.style.display = 'none'
+    }
+}
