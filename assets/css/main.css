@@ -1021,7 +1021,7 @@ nav {
 }
 
 .navlink-icon>a {
-    padding: 12px 5px;
+    padding: 5px 5px;
     text-decoration: none;
     margin: 0px 8px;
     display: flex;
@@ -1037,7 +1037,7 @@ nav {
 }
 
 .navlink-icon>a>span {
-    margin-top: 5px;
+    margin-top: 0px;
     text-align: center;
     font-size: 12px;
 }
@@ -1366,13 +1366,15 @@ input.small-search-field {
     .navlink-icon.nav-notifications-small {
         display: none;
     }
-
+    .navlink-icon.nav-profile-small {
+        display: flex;
+    }
     .navlink-icon.nav-messaging {
-        display: block;
+        display: flex;
     }
 
     .navlink-icon.nav-notifications {
-        display: block;
+        display: flex;
     }
 }
 
@@ -1497,13 +1499,15 @@ input.small-search-field {
     }
 
     .navlink-icon.nav-messaging-small {
-        display: block;
+        display: flex;
     }
 
     .navlink-icon.nav-notifications-small {
-        display: block;
+        display: flex;
     }
-
+    .navlink-icon.nav-profile-small {
+        display: flex;
+    }
     .navlink-icon.nav-messaging {
         display: none;
     }
