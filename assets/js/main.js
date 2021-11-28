@@ -139,3 +139,13 @@ dropmenu = () => {
         moreMenu.style.display = 'none'
     }
 }
+
+var postModal = document.getElementById('modal-post')
+postModal.style.display = 'none'
+
+postModalFunc = () => {
+    postModal.style.display = 'block'
+}
+modalClose=()=>{
+    postModal.style.display = 'none'
+}

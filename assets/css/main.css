@@ -15,7 +15,6 @@
 body {
     background-color: #F3F2EF;
     font-family: var(--artdeco-reset-typography-font-family-sans);
-
 }
 
 .content-container {
@@ -477,6 +476,7 @@ img.items-img-company {
     background-color: #fff;
     border-radius: 12px;
     outline: 1px solid #A4A4A4;
+    position: relative;
 }
 
 .posts {
@@ -1107,6 +1107,150 @@ input.small-search-field {
     display: none;
 }
 
+
+.img-input{
+    display: flex;
+}
+.img-input>img{
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.img-input>input{
+    width: 100%;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-size: 16px;
+    border: none;
+    outline: 1px solid #A4A4A4;
+}
+.img-input>input:hover{
+    background-color: #EBEBEB;
+}
+.post-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.icons {
+    padding: 15px 10px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.icons:hover {
+    background-color: #EBEBEB;
+}
+.icons>a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+.icons>a>i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.icons>a>span{
+    font-weight: 600;
+
+}
+.icons>a>i.fas.fa-image{
+    color: #70B5F9;
+}
+.icons>a>i.fab.fa-youtube{
+    color: #7FC15E;
+}
+.icons>a>i.fas.fa-shopping-bag{
+    color: #A8D4FF;
+}
+.icons>a>i.far.fa-newspaper{
+    color: #FC9295;
+}
+.post-modal-title>i{
+    color: #5E5E5E;
+    cursor: pointer;
+}
+.post-modal {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    left: 0;
+    top: -4px;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #A4A4A4;
+    z-index: 1;
+}
+.post-modal-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-modal-title>h3 {
+    font-weight: 600;
+}
+.modal-visiblity>h3 {
+    font-weight: 600;
+margin-bottom: 5px;
+}
+.modal-profile>img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.modal-profile {
+    display: flex;
+    margin: 10px 0px;
+}
+.visiblity-btn {
+    outline: 1px solid #5E5E5E;
+    padding: 5px 5px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #5E5E5E;
+}
+.visiblity-btn:hover {
+    background-color: #EBEBEB;
+    outline: 2px solid #5E5E5E;
+}
+.post-modal>textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+}
+.post-modal>textarea:focus{
+    outline: none;
+}
+.post-modal>span{
+    font-size:18px;
+    font-weight: 600;
+    color: #136BC4;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.post-modal>span:hover{
+    background-color:#E2F0FE ;
+}
+.modal-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-bottom >button{
+    background-color: #0A66C2;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.modal-bottom-btn{
+    margin-left: 8px;
+}
 @media (min-width: 1440px) {}
 
 /*large Device*/
