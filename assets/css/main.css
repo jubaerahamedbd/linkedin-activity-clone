@@ -97,6 +97,7 @@ body {
 .name-details>h3 {
     color: #191919;
     font-size: 15px;
+    font-weight: 600;
 }
 
 .name-details>p {
@@ -129,6 +130,7 @@ body {
     font-size: 15px;
     padding: 12px 0px;
     border-radius: 50px;
+    font-weight: 600;
 }
 
 .left-column-button>.connect-btn:hover {
@@ -146,6 +148,7 @@ body {
     border-radius: 50px;
     outline: 1px solid #5E5E5E;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 .left-column-button>.message-btn:hover {
@@ -166,6 +169,7 @@ body {
 h3.box-title {
     color: #6F6E6D;
     margin: 10px 0px;
+    font-weight: 600;
 }
 
 h3.item-title {
@@ -209,12 +213,14 @@ h3.item-title {
 .items-text>h4 {
     color: #191919;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .items-text>p {
     color: #5E5E5E;
     font-size: 12px;
     margin: 2px 0px;
+    font-weight: 600;
 }
 
 .follow-btn {
@@ -223,10 +229,12 @@ h3.item-title {
 
 p.follower-text {
     font-size: 14px;
+    font-weight: 600;
 }
 
 p.follower-no {
     font-size: 14px;
+    font-weight: 600;
 }
 
 .none {
@@ -266,6 +274,7 @@ a.see-all-right {
     text-decoration: none;
     color: #5e5e5e;
     padding: 5px;
+    font-weight: 600;
 }
 
 a.see-all-right:hover {
@@ -398,7 +407,9 @@ img.items-img-company {
     margin-top: 20px;
 
 }
-
+.activity-filter>h3 {
+    font-weight: 600;
+}
 .act-btn {
     border: none;
     padding: 5px 10px;
@@ -409,7 +420,7 @@ img.items-img-company {
     outline: 1px solid #A4A4A4;
     border-radius: 12px;
     font-size: 14px;
-
+    font-weight: 600;
 }
 
 .act-btn:hover {
@@ -554,6 +565,7 @@ img.items-img-company {
 
 .comment-name-details>h3 {
     font-size: 14px;
+    font-weight: 600;
 }
 
 .comment-name-details>h3>span {
@@ -596,11 +608,13 @@ img.items-img-company {
 
 .post-item>h3 {
     font-size: 14px;
+    font-weight: 600;
 }
 
 .post-item>span {
     font-size: 12px;
     color: #A4A4A4;
+    font-weight: 600;
 }
 
 .post-item>span>a {
@@ -710,7 +724,8 @@ i.far.fa-thumbs-up {
 }
 
 .comment-title>h4 {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .comment-input>img {
@@ -752,6 +767,7 @@ i.far.fa-thumbs-up {
 
 .comments>h4 {
     color: #666666;
+    font-weight: 600;
 }
 
 .comments>h4>i {
@@ -781,7 +797,7 @@ i.far.fa-thumbs-up {
 
 .comment-title {
     display: flex;
-    margin-bottom: 3px;
+    margin-bottom: 0;
     justify-content: space-between;
 
 }
@@ -794,8 +810,9 @@ i.far.fa-thumbs-up {
 }
 
 .full-comment>span {
-    color: #898989;
-    font-size: 11px;
+    color: #666666;
+    font-size: 12px;
+    
 }
 
 .comment-desc {
@@ -805,7 +822,8 @@ i.far.fa-thumbs-up {
 
 .comment-desc>p {
     color: #707070;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .comment-content>span {
@@ -828,7 +846,8 @@ i.far.fa-thumbs-up {
     text-decoration: none;
     color: #898989;
     padding: 5px 8px;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .load-more:hover {
@@ -859,6 +878,7 @@ i.far.fa-thumbs-up {
     transform: rotateY(0deg) !important;
     color: #5E5E5E !important;
     padding: 10px 10px;
+    font-weight: 600;
 }
 
 .post-reaction-button>a>i:hover {
@@ -941,7 +961,8 @@ button#dots:hover {
 }
 
 .replay-name-details>p {
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 600;
     color: #666666;
 }
 
@@ -952,7 +973,8 @@ button#dots:hover {
 
 p.replay-text {
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 13px;
+    font-weight: 600;
 }
 
 .replay-name-details {
