@@ -447,7 +447,7 @@ img.items-img-company {
     padding: 20px;
     background-color: #fff;
     border-radius: 12px;
-    outline: 1px solid #A4A4A4;
+    outline: 1px solid #E0DFDC;
 }
 
 .nothing {
@@ -458,16 +458,22 @@ img.items-img-company {
 }
 
 .nothing>img {
-    width: 100%;
+    width: 70%;
 }
-
+.nothing>h1 {
+    font-weight: 600;
+}
+.nothing>h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
 .documents-item-full {
     margin: 20px 0px;
     width: 100%;
     padding: 20px;
     background-color: #fff;
     border-radius: 12px;
-    outline: 1px solid #A4A4A4;
+    outline: 1px solid #E0DFDC;
 }
 
 .documents {
@@ -478,7 +484,14 @@ img.items-img-company {
 }
 
 .documents>img {
-    width: 100%;
+    width: 70%;
+}
+.documents>h1 {
+    font-weight: 600;
+}
+.documents>h3 {
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .posts-item-full {
