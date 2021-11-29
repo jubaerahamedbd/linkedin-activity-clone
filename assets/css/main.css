@@ -500,7 +500,7 @@ img.items-img-company {
     padding: 20px;
     background-color: #fff;
     border-radius: 12px;
-    outline: 1px solid #A4A4A4;
+    outline: 1px solid #E0DFDC;
     position: relative;
 }
 
@@ -667,7 +667,7 @@ img.items-img-company {
 }
 
 .progress-no-inner {
-    background-color: #E2F0FE;
+    background-color: #EBEBEB;
     width: 4%;
     padding: 8px 5px;
 }
@@ -684,7 +684,7 @@ img.items-img-company {
 }
 
 .progress-other-inner {
-    background-color: #E2F0FE;
+    background-color: #EBEBEB;
     width: 6%;
     padding: 8px 5px;
 }
@@ -765,6 +765,7 @@ i.far.fa-thumbs-up {
 
 .comment-icon>i {
     padding: 7px 8px;
+    color: #5E5E5E;
 }
 
 .comment-icon>i:hover {
@@ -1215,7 +1216,7 @@ input.small-search-field {
     top: -4px;
     border-radius: 8px;
     padding: 15px;
-    border: 1px solid #A4A4A4;
+    border: 1px solid #E0DFDC;
     z-index: 1;
     
 }
