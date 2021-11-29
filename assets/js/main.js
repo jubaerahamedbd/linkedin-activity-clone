@@ -149,3 +149,38 @@ postModalFunc = () => {
 modalClose=()=>{
     postModal.style.display = 'none'
 }
+
+var dropNav = document.getElementById('profile-nav')
+dropNav.style.display = 'none'
+var NavProfileDetails = false
+profileNav = ()=>{
+    if (NavProfileDetails === false) {
+        NavProfileDetails = true
+    }
+    else {
+        NavProfileDetails = false
+    }
+    if (NavProfileDetails === true) {
+        dropNav.style.display = 'block'
+    } else {
+        dropNav.style.display = 'none'
+    }
+
+}
+var smallDropNav = document.getElementById('profile-small-nav')
+smallDropNav.style.display = 'none'
+var NavSmallProfileDetails = false
+profileSmallNav = ()=>{
+    if (NavSmallProfileDetails === false) {
+        NavSmallProfileDetails = true
+    }
+    else {
+        NavSmallProfileDetails = false
+    }
+    if (NavSmallProfileDetails === true) {
+        smallDropNav.style.display = 'block'
+    } else {
+        smallDropNav.style.display = 'none'
+    }
+
+}
